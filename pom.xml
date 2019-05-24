@@ -23,12 +23,12 @@
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://100.24.42.216:8083/nexus-latest/content/repositories/releases/</url>
+     <url>http://18.205.106.102:8081/nexus-latest/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>snapshot </name>
-     <url>http://100.24.42.216:8083/nexus-latest/content/repositories/snapshot//</url>
+     <url>http://18.205.106.102:8081/nexus-latest/content/repositories/releases/</url>
   </snapshotRepository>
 </distributionManagement>
 
