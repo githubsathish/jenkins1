@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rns.app</groupId>
   <artifactId>webapp</artifactId>
@@ -18,18 +18,28 @@
   <build>
     <finalName>webapp</finalName>
   </build>
-  
+
    <distributionManagement>
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://34.205.157.129:8081/nexus-latest/content/repositories/releases/</url>
+     <url>http://54.183.137.158:8081/nexus-latest/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>snapshot </name>
-     <url>http://34.205.157.129:8081/nexus-latest/content/repositories/snapshot/</url>
+     <url>http://54.183.137.158:8081/nexus-latest/content/repositories/snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 
 </project>
+~
+~
+~
+~
+~
+~
+~
+~
+~
+
