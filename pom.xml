@@ -23,12 +23,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://54.183.137.158:8081/nexus-latest/content/repositories/releases/</url>
+     <url>http://18.144.6.5:8088/nexus-latest/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>snapshot </name>
-     <url>http://54.183.137.158:8081/nexus-latest/content/repositories/snapshot/</url>
+     <url>http://18.144.6.5:8088/nexus-latest/content/repositories/snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 
